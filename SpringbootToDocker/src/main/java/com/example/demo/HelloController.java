@@ -9,6 +9,7 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String getHello() {
 		return "Hello, this is demo project";
+		
 	}
 	
 }
